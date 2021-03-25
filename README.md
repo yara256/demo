@@ -24,6 +24,9 @@ pytest tests/api
 ```
 
 #### Generate report
+
+```
 pytest  -sv --alluredir=tests/allure-results tests/api
 allure generate ./tests/allure-results –clean
 allure open
+```
